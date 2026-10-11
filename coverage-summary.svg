@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Vitest coverage summary</title>
+  <desc id="desc">Summary of code coverage with statements 94.48%, branches 89.47%, functions 84.61%, and lines 94.48%.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f7f7; }
+      .panel { fill: #ffffff; stroke: #d9d9d9; stroke-width: 1; }
+      .header { fill: #f5f5f5; stroke: #d9d9d9; }
+      .label { font: 18px Arial, sans-serif; fill: #222; }
+      .small { font: 14px Arial, sans-serif; fill: #666; }
+      .big { font: 700 30px Arial, sans-serif; fill: #222; }
+      .muted { fill: #666; }
+      .green { fill: #5cb85c; }
+      .yellow { fill: #f0ad4e; }
+      .red { fill: #f0b4b4; }
+      .row { fill: #f8fafc; stroke: #d9d9d9; }
+      .cell { fill: #ffffff; stroke: #e0e0e0; }
+      .percent { font: 700 18px Arial, sans-serif; fill: #222; }
+      .code { font: 14px 'SFMono-Regular', Consolas, monospace; fill: #2c2c2c; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="520"/>
+  <rect x="40" y="25" width="1120" height="390" rx="4" class="panel"/>
+  <rect x="40" y="25" width="1120" height="70" class="header"/>
+  <text x="80" y="68" class="big">All files</text>
+  <g>
+    <rect x="80" y="112" width="150" height="34" rx="5" fill="#eaf5ea"/>
+    <text x="95" y="134" class="percent">94.48%</text>
+    <text x="220" y="134" class="small muted">Statements</text>
+    <text x="345" y="134" class="small muted">291/308</text>
+  </g>
+  <g>
+    <rect x="470" y="112" width="150" height="34" rx="5" fill="#eaf5ea"/>
+    <text x="485" y="134" class="percent">89.47%</text>
+    <text x="610" y="134" class="small muted">Branches</text>
+    <text x="720" y="134" class="small muted">34/38</text>
+  </g>
+  <g>
+    <rect x="800" y="112" width="150" height="34" rx="5" fill="#eaf5ea"/>
+    <text x="815" y="134" class="percent">84.61%</text>
+    <text x="940" y="134" class="small muted">Functions</text>
+    <text x="1040" y="134" class="small muted">11/13</text>
+  </g>
+  <g>
+    <rect x="80" y="154" width="150" height="34" rx="5" fill="#eaf5ea"/>
+    <text x="95" y="176" class="percent">94.48%</text>
+    <text x="220" y="176" class="small muted">Lines</text>
+    <text x="345" y="176" class="small muted">291/308</text>
+  </g>
+
+  <rect x="80" y="220" width="1040" height="150" rx="2" class="row"/>
+  <rect x="80" y="220" width="1040" height="30" class="header"/>
+  <text x="100" y="240" class="label">File</text>
+  <text x="380" y="240" class="label">Statements</text>
+  <text x="620" y="240" class="label">Branches</text>
+  <text x="810" y="240" class="label">Functions</text>
+  <text x="970" y="240" class="label">Lines</text>
+
+  <g>
+    <rect x="80" y="250" width="1040" height="48" class="cell"/>
+    <rect x="300" y="258" width="180" height="22" fill="#bfe7c3"/>
+    <rect x="300" y="258" width="172" height="22" fill="#5cb85c"/>
+    <text x="95" y="279" class="code">tarea18/src/app</text>
+    <text x="525" y="279" class="percent">100%</text>
+    <text x="720" y="279" class="percent">100%</text>
+    <text x="930" y="279" class="percent">100%</text>
+    <text x="1075" y="279" class="percent">100%</text>
+  </g>
+  <g>
+    <rect x="80" y="298" width="1040" height="48" class="cell"/>
+    <rect x="300" y="306" width="180" height="22" fill="#bfe7c3"/>
+    <rect x="300" y="306" width="178" height="22" fill="#5cb85c"/>
+    <text x="95" y="327" class="code">tarea18/src/app/character/[id]</text>
+    <text x="525" y="327" class="percent">98.79%</text>
+    <text x="720" y="327" class="percent">75%</text>
+    <text x="930" y="327" class="percent">100%</text>
+    <text x="1075" y="327" class="percent">98.79%</text>
+  </g>
+  <g>
+    <rect x="80" y="346" width="1040" height="48" class="cell"/>
+    <rect x="300" y="354" width="180" height="22" fill="#bfe7c3"/>
+    <rect x="300" y="354" width="180" height="22" fill="#5cb85c"/>
+    <text x="95" y="375" class="code">tarea18/src/components</text>
+    <text x="525" y="375" class="percent">100%</text>
+    <text x="720" y="375" class="percent">90.9%</text>
+    <text x="930" y="375" class="percent">100%</text>
+    <text x="1075" y="375" class="percent">100%</text>
+  </g>
+  <g>
+    <rect x="80" y="394" width="1040" height="48" class="cell"/>
+    <rect x="300" y="402" width="180" height="22" fill="#bfe7c3"/>
+    <rect x="300" y="402" width="180" height="22" fill="#5cb85c"/>
+    <text x="95" y="423" class="code">tarea18/src/lib</text>
+    <text x="525" y="423" class="percent">100%</text>
+    <text x="720" y="423" class="percent">100%</text>
+    <text x="930" y="423" class="percent">100%</text>
+    <text x="1075" y="423" class="percent">100%</text>
+  </g>
+</svg>

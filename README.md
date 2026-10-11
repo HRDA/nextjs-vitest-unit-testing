@@ -67,6 +67,12 @@ La forma más sencilla de desplegar esta aplicación es utilizando [Vercel](http
 - `src/lib`: Lógica de cliente API (`api.ts`).
 - `src/types`: Definiciones de tipos TypeScript (`rickandmorty.ts`).
 
+## 🧪 Cobertura de pruebas
+
+La siguiente captura muestra el resumen final de cobertura generado con Vitest en modo `--coverage`:
+
+![Resumen de cobertura](./coverage-summary.svg)
+
 ## ✅ Requisitos Cumplidos
 
 - [x] Consumo de API de Personajes.
